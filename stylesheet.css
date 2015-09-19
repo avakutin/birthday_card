@@ -1,6 +1,6 @@
 h1 {
 	font-family:'Josefin Sans', sans-serif;
-	font-size:100px;
+	font-size:80px;
 	text-align: center;
 	text-shadow: 2px 2px #fffbed;
 	animation-name: animate;
@@ -12,7 +12,13 @@ body {
     background-color: #81d8d0;
 }
 
+<<<<<<< HEAD
 @-webkit-keyframes animate {
 	from {font-size:100px;}
 	to {font-size: 150px;}
 }
+=======
+canvas {
+	display: block;
+}
+>>>>>>> f03ee67fe422580009be2278aadb50a7d95303cc
