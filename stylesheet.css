@@ -1,10 +1,14 @@
 h1 {
 	font-family:'Josefin Sans', sans-serif;
-	font-size:100px;
+	font-size:80px;
 	text-align: center;
 	text-shadow: 2px 2px #fffbed;
 }
 
 body {
     background-color: #81d8d0;
+}
+
+canvas {
+	display: block;
 }
