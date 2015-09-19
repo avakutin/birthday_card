@@ -3,8 +3,16 @@ h1 {
 	font-size:100px;
 	text-align: center;
 	text-shadow: 2px 2px #fffbed;
+	animation-name: animate;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
 }
 
 body {
     background-color: #81d8d0;
+}
+
+@-webkit-keyframes animate {
+	from {font-size:100px;}
+	to {font-size: 150px;}
 }
